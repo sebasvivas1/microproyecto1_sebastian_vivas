@@ -27,6 +27,7 @@ body {
     line-height: 80px;
     padding: 0 100px;
     font-weight: 800;
+
 }
 
 .header #navbar .container ul{
@@ -63,7 +64,7 @@ a.active, a:hover{
 .hero .heroContainer .text1 {
     font-size: 48px;
     font-weight: 400;
-    color: #FFFFFA
+    color: #FFFFFA;
 }
 
 .hero .heroContainer .text2 {
@@ -74,7 +75,7 @@ a.active, a:hover{
 
 .hero .heroContainer img {
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
 .hero .heroContainer .square img{
@@ -88,4 +89,57 @@ a.active, a:hover{
     background-size: 560px;
     border-radius: 40%;
 }
+
+
+.experienceposts{
+    background: #448180;
+
+}
+.experienceposts .exptitle{
+    padding: 15;
+    margin-left: 120px;
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+}
+
+.experienceposts .tarjetas {
+    padding: 20px;
+    background: #448180;
+    color: black;
+}
+
+.experienceposts .tarjetas .title {
+    font-size: 22px;
+}
+
+.experienceposts .tarjetas .tecnologias {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+.experienceposts .tarjetas .fechaejec {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+.experienceposts .tarjetas .tarjetaImagen {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #ccc;
+}
+.experienceposts .tarjetas .tarjetaImagen img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
 

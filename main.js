@@ -3,7 +3,6 @@ const hero = document.getElementById('hero')
 const experience = document.getElementById('experience')
 const about = document.getElementById('about')
 const skills = document.getElementById('skills-section')
-const skillsjson = document.getElementById('skills')
 
 // Cambio de fondo del Hero
 let i = 0;
@@ -21,14 +20,12 @@ function cambioBg() {
 
 window.onload = cambioBg;
 
-let jsonSkills = {
-    Python: "60%",
-    Java: "50%",
-    HTML: "30%",
-    CSS: "30%",
-    JavaScript: "20%"
-}
+let jsonSkills = '{"skills": ['+ '{"python":"70%"},' + '{"Java": "60%"},' + ' {"HTML":"70%"},'+'{"CSS":"40%"},'+'{"JavaScript":"20%"}]}';
+let json = JSON.parse(jsonSkills);
 
-skillsjson.innerHTML += `
+document.getElementById("skill1").innerHTML = "Python:" + '' + json.jsonSkills[0].python;
+document.getElementById("skill2").innerHTML = "Java:" + '' + json.jsonSkills[1].Java;
+document.getElementById("skill3").innerHTML = "HTML:" + '' + json.jsonSkills[2].HTML;
+document.getElementById("skill4").innerHTML = "CSS:" + '' + json.jsonSkills[3].CSS;
+document.getElementById("skill5").innerHTML = "JavaScript:" + '' + json.jsonSkills[4].JavaScript;
 
-`

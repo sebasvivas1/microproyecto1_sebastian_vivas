@@ -1,5 +1,9 @@
 // Elementos del DOM
 const hero = document.getElementById('hero')
+const experience = document.getElementById('experience')
+const about = document.getElementById('about')
+const skills = document.getElementById('skills-section')
+const skillsjson = document.getElementById('skills')
 
 // Cambio de fondo del Hero
 let i = 0;
@@ -16,3 +20,15 @@ function cambioBg() {
 }
 
 window.onload = cambioBg;
+
+let jsonSkills = {
+    Python: "60%",
+    Java: "50%",
+    HTML: "30%",
+    CSS: "30%",
+    JavaScript: "20%"
+}
+
+skillsjson.innerHTML += `
+
+`

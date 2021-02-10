@@ -139,7 +139,67 @@ a.active, a:hover{
     object-position: center;
 }
 
+.about-section {
+    padding: 15px;
+    background: #448180;
+}
+
+.about-section .wrapper {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.about-section .about-title{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about-section .aboutfoto {
+    position: absolute;    
+    margin-left: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.about-section .aboutdescription{
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.about-section .titulo-about{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-section .name p{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+
+/* .about-section .titulo-about .cortoplazo  {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: -50px;
+} */
+
+.about-section .aboutdescription ul li {
+    list-style-type: none;
+
+}
+
+.aboutdescription .agrupar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45%;
+}
 
 
+.aboutdescription .agrupar2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45%;
+    margin-top: 10px;
+}
 
 
